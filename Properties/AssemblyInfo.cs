@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("PBL3_QLQuanNet")]
+[assembly: AssemblyTitle("TestGit")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("PBL3_QLQuanNet")]
+[assembly: AssemblyProduct("TestGit")]
 [assembly: AssemblyCopyright("Copyright ©  2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("6849e754-47e5-4b30-9208-2a33697fecd0")]
+[assembly: Guid("507d02f2-5897-4fb8-83d1-7edc501b284d")]
 
 // Version information for an assembly consists of the following four values:
 //
