@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?><Database Name="QL_QuanNet" Class="QLNetDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
-  <Connection Mode="AppSettings" ConnectionString="Data Source=admin-pc\admin;Initial Catalog=QL_QuanNet;User ID=sa" SettingsObjectName="PBL3_QLQuanNet.Properties.Settings" SettingsPropertyName="QL_QuanNetConnectionString" Provider="System.Data.SqlClient" />
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-ILLMULD\PVCSERVER;Initial Catalog=QLSinhVien;Integrated Security=True" SettingsObjectName="PBL3_QLQuanNet.Properties.Settings" SettingsPropertyName="QLSinhVienConnectionString" Provider="System.Data.SqlClient" />
   <Table Name="dbo.Account" Member="Accounts">
     <Type Name="Account">
       <Column Name="ID_Account" Type="System.String" DbType="VarChar(30) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />

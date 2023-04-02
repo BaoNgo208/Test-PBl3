@@ -63,7 +63,7 @@ namespace PBL3_QLQuanNet.DTO
     #endregion
 		
 		public QLNetDataContext() : 
-				base(global::PBL3_QLQuanNet.Properties.Settings.Default.QL_QuanNetConnectionString, mappingSource)
+				base(global::PBL3_QLQuanNet.Properties.Settings.Default.QLSinhVienConnectionString, mappingSource)
 		{
 			OnCreated();
 		}

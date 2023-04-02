@@ -33,5 +33,27 @@ namespace PBL3_QLQuanNet.Properties {
                 return ((string)(this["QL_QuanNetConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-ILLMULD\\PVCSERVER;Initial Catalog=QL_DASV;Integrated Security" +
+            "=True")]
+        public string QL_DASVConnectionString {
+            get {
+                return ((string)(this["QL_DASVConnectionString"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-ILLMULD\\PVCSERVER;Initial Catalog=QLSinhVien;Integrated Secur" +
+            "ity=True")]
+        public string QLSinhVienConnectionString {
+            get {
+                return ((string)(this["QLSinhVienConnectionString"]));
+            }
+        }
     }
 }
